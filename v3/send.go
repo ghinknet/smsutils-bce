@@ -2,9 +2,9 @@ package bce
 
 import (
 	"github.com/baidubce/bce-sdk-go/services/sms/api"
-	"github.com/ghinknet/smsutils/v3/errors"
-	"github.com/ghinknet/smsutils/v3/model"
-	"github.com/ghinknet/smsutils/v3/utils"
+	"go.gh.ink/smsutils/v3/errors"
+	"go.gh.ink/smsutils/v3/model"
+	"go.gh.ink/smsutils/v3/utils"
 )
 
 func (c Client) SendMessage(dest string, sender string, template string, vars model.Vars) error {

@@ -2,9 +2,9 @@ package bce
 
 import (
 	"github.com/baidubce/bce-sdk-go/services/sms"
-	"github.com/ghinknet/smsutils/v3/errors"
-	"github.com/ghinknet/smsutils/v3/model"
-	"github.com/ghinknet/toolbox/expr"
+	"go.gh.ink/smsutils/v3/errors"
+	"go.gh.ink/smsutils/v3/model"
+	"go.gh.ink/toolbox/expr"
 )
 
 type Client struct {
